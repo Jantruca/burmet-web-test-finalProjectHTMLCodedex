@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>BURMET</title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="https://burmet.es/images/perfil.webp" alt="BURMET Logo" id="header-img" width="100">
+            <h1>BURMET</h1>
+            
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#order-form">Place Your Order</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="menu">
+                <h2>Menu</h2>
+                
+                <article>
+                    <img src="https://imagenes.elpais.com/resizer/v2/KUKDFELEKZAE3JJ4UQ2Y43MIGY.jpg?auth=9008336b8767bccfdce4b01c49ea81b130568af4e03ead306646be415df7e6a7&width=1960&height=1103&focal=2885%2C2281" alt="Burger Clásica" width="200">
+                    <h3>The Classic Smash</h3>
+                    <p>Nuestra hamburguesa insignia con carne 100% de res, queso cheddar y nuestra salsa secreta. Un sabor que no decepciona. Precio: <i>€9.95</i></p>
+                </article>
+
+                <article>
+                    <img src="https://media.timeout.com/images/105777294/630/472/image.jpg" alt="Burger Ahumada" width="200">
+                    <h3>Smoky Bacon Deluxe</h3>
+                    <p>Doble de carne, crujientes tiras de tocino ahumado y cebolla caramelizada. Una explosión de sabor. Precio: <i>€12.50</i></p>
+                </article>
+
+                <article>
+                    <img src="https://eu-west-3-146514239214-prod-bk-fz.s3.eu-west-3.amazonaws.com/en-ES/2024/September/vegetariano/assets/images/whopper.png" alt="Burger Vegetariana" width="200">
+                    <h3>Veggie Power</h3>
+                    <p>Opción vegetariana con un delicioso patty de lentejas y aguacate fresco. Ligera y sabrosa. Precio: <i>€11.00</i></p>
+                </article>
+            </section>
+            
+            <hr> <section id="order-form">
+                <h2>Place Your Order</h2>
+                <form>
+                    <label for="qty-classic">Cantidad The Classic Smash:</label><br>
+                    <input type="number" id="qty-classic" name="qty-classic" min="0" value="0"><br><br>
+
+                    <label for="qty-smoky">Cantidad Smoky Bacon Deluxe:</label><br>
+                    <input type="number" id="qty-smoky" name="qty-smoky" min="0" value="0"><br><br>
+
+                    <label for="qty-veggie">Cantidad Veggie Power:</label><br>
+                    <input type="number" id="qty-veggie" name="qty-veggie" min="0" value="0"><br><br>
+
+                    <p>¿Qué acompañamiento deseas?</p>
+                    <input type="radio" id="side-fries" name="sides" value="fries">
+                    <label for="side-fries">Papas Fritas</label><br>
+
+                    <input type="radio" id="side-salad" name="sides" value="salad">
+                    <label for="side-salad">Ensalada de Col</label><br>
+                    
+                    <input type="radio" id="side-onion" name="sides" value="onion">
+                    <label for="side-onion">Aros de Cebolla</label><br>
+                    <br>
+
+                    <p>Elige tus extras:</p>
+                    <input type="checkbox" id="extra-bacon" name="extra" value="bacon">
+                    <label for="extra-bacon">Extra Bacon (+$1.00)</label><br>
+
+                    <input type="checkbox" id="extra-guac" name="extra" value="guac">
+                    <label for="extra-guac">Guacamole (+$1.50)</label><br>
+
+                    <input type="checkbox" id="extra-jalapeno" name="extra" value="jalapeno">
+                    <label for="extra-jalapeno">Jalapeños</label><br>
+                    <br>
+
+                    <label for="requests">Solicitudes Especiales / Alergias:</label><br>
+                    <textarea id="requests" name="requests" rows="4" cols="40" placeholder="Ej: Sin pepinillos, sin sal, etc."></textarea><br><br>
+
+                    <input type="submit" value="Go To Checkout">
+                    
+                </form>
+            </section>
+        </main>
+        
+        <footer>
+            <p>Made with love by Alejandro Fuentes</p>
+        </footer>
+    </body>
+</html>
